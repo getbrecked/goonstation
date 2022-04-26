@@ -847,7 +847,7 @@ datum/preferences
 				return TRUE
 
 			if ("update-preferredMap")
-				src.preferred_map = mapSwitcher.clientSelectMap(usr.client,pickable=0)
+				src.preferred_map = mapSwitcher.clientSelectMap(usr.client,pickable=1)
 				src.profile_modified = TRUE
 				return TRUE
 
